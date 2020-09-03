@@ -74,9 +74,9 @@ Voor wanneer de inline-style link toch niet werkt: https://www.ah.nl/allerhande/
 https://www.ah.nl/allerhande/recept/R-R1188376/papardelle-met-artisjok-en-warmgerookte-zalm
 
 **Screenshot(s):**
-![De Homepage](images/home.png)
+![De Homepage](images/home.jpg)
 
-![De detailpagina](images/recept.png)
+![De detailpagina](images/recept.jpg)
 
 
 **Breakdown-schets(en):**
