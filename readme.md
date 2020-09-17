@@ -40,15 +40,24 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Goed:
+In ieder geval direct begonnen met Html.................
+
+Lastig:
+Tweede week begonnen met uitstellen en andere vakken voor laten gaan.
+Frontend niet meer oppakken.
+Zelfstandig doorwerken.
+Meer vragen stellen _Onzeker over html, niet zeker of alles juist is._
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent-
+![](images/screenshot_2020-09-17.Allerhande.v1.jpg)
 
 ### Agenda voor meeting
 
--samen met je groepje opstellen-
+Html structuur
+CSS positionering
+CSS Flexbox
 
 ### Verslag van meeting
 
@@ -75,6 +84,8 @@ https://www.ah.nl/allerhande/recept/R-R1188376/papardelle-met-artisjok-en-warmge
 
 **Screenshot(s):**
 ![De Homepage](images/home.jpg)
+
+![Schreenshot van Home pagina, mobile first](images/home-mobile.png)
 
 ![De detailpagina](images/recept.jpg)
 
