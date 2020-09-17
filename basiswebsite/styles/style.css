@@ -1,0 +1,17 @@
+/* CSS Document */
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+
+header nav {
+  background-color: black;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+footer {
+  background-color: #f7f7f7;
+}
