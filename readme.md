@@ -40,14 +40,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
-Goed:
-In ieder geval direct begonnen met Html.................
-
-Lastig:
-Tweede week begonnen met uitstellen en andere vakken voor laten gaan.
-Frontend niet meer oppakken.
-Zelfstandig doorwerken.
-Meer vragen stellen _Onzeker over html, niet zeker of alles juist is._
+-dit ging goed & dit was lastig-
 
 **Screenshot(s):**
 
