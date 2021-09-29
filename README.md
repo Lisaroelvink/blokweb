@@ -44,11 +44,11 @@ Home pagina mobile screen
 
 #### Screenshot(s) van de eerste pagina (full screen): 
 Home pagina full screen  
-<img src="images/home.png" width="375px" alt="omschrijving van de pagina"> 
+<img src="images/home.jpg" width="375px" alt="omschrijving van de pagina"> 
 
 #### Screenshot(s) van de eerste pagina (full screen): 
 Breakdown 
-<img src="images/home-breakdown.png" width="375px" alt="omschrijving van de pagina"> 
+<img src="images/home-breakdown.jpg" width="375px" alt="omschrijving van de pagina"> 
 </details>
 
 
