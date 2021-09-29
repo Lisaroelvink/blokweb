@@ -7,3 +7,103 @@
 /***************ALGEMENE STYLING*********************/
 /****************************************************/
 
+body {
+  font-family: HamburgTS,Arial,Helvetica,sans-serif;
+  color: #303030;
+  background: #f2f2f2;
+  width: 100vw;
+}
+
+main {
+  display: grid;
+  place-items: center center;
+  background: white;
+  padding: 2em;
+  margin: 1em;
+}
+
+section, article {
+  max-width:500px;
+}
+
+main img {
+  width: 100%;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+
+/****************************************************/
+/*****************HEADER STYLING*********************/
+/****************************************************/
+
+header {
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 12px;
+}
+
+nav:nth-of-type(2) {
+  background: black;
+  color: white;
+}
+
+/****************************************************/
+/*****************SEARCH STYLING*********************/
+/****************************************************/
+
+
+
+/****************************************************/
+/*****************FIRST H1 STYLING*******************/
+/****************************************************/
+
+section:first-of-type {
+  position: relative;
+}
+
+h1 {
+  color: white;
+  text-shadow: grey;
+}
+
+section:first-of-type div {
+  position: absolute;
+  top:0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(to bottom);
+}
+
+/****************************************************/
+/*****************FIRST SECTION STYLING**************/
+/****************************************************/
+
+section article {
+
+}
+
+section a:last-of-type {
+  background: red;
+  color:white;
+  padding: 1em;
+  border-radius: 5px;
+  text-decoration: none;
+  
+}
+
+section a:last-of-type:hover {
+  background: palevioletred;
+  color:white;
+  padding: 1em;
+  border-radius: 5px;
+  text-decoration: none;
+}
