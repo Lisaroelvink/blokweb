@@ -92,7 +92,7 @@ samen met je groepje opstellen
 | blokjes stuctuur |
 | searchbar      | 
 
- <img src="images/127.0.0.1_5500_index.html.png" width="375px" alt="breakdown van nog een dynamisch deel">
+ <img src="images/screenshot_html1" width="375px" alt="breakdown van nog een dynamisch deel">
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
