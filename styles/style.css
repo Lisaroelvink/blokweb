@@ -103,6 +103,7 @@ section:first-of-type div {
 /****************************************************/
 
 
+
 section article img {
   position: relative;
   height: 150px;
@@ -119,9 +120,14 @@ section article {
   box-shadow:0 15px 18px 0 rgb(0 0 0 / 5%); 
   /* box-shadow van allerhande overgenomen*/
   margin-bottom: 2em;
-
+  
 }
 
+section div {
+  display: flex;
+  gap: 1em;
+  overflow: scroll;
+}
 
 section article ul {
   display: flex;
