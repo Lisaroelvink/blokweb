@@ -146,6 +146,7 @@ main section:not(:first-of-type) div {
   align-self: flex-start;
 }
 
+
 section article ul {
   display: flex;
   flex-direction: row;
@@ -181,4 +182,15 @@ section a:last-of-type:hover {
 
 article {
   padding-top: 2em;
+}
+
+
+@media screen and (min-width: 1024px) {
+  main section:not(:first-of-type) div {
+    flex-wrap: wrap;
+  }
+  main section article {
+    min-width: 250px;
+    max-width: 22vw;
+  }
 }
