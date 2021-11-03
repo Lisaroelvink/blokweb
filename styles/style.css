@@ -22,13 +22,16 @@ main {
   margin: 1em;
 }
 
+section {
+  border-radius: 25px;
+}
+
 section, article {
-  max-width:500px;
+  max-width: 500px;
 }
 
 main img {
   width: 100%;
-  border-radius: 15px;
   object-fit: cover;
 }
 
@@ -57,6 +60,17 @@ nav:nth-of-type(2) {
 /*****************SEARCH STYLING*********************/
 /****************************************************/
 
+form {
+  display: flex;
+  flex-direction: row;
+  font-size: 2em;
+}
+
+form input {
+  width: 100%;
+  border: none;
+  padding: 2em;
+}
 
 
 /****************************************************/
@@ -83,12 +97,28 @@ section:first-of-type div {
   background: linear-gradient(to bottom);
 }
 
+
 /****************************************************/
-/*****************FIRST SECTION STYLING**************/
+/*****************SECOND SECTION STYLING**************/
 /****************************************************/
 
-section article {
 
+
+section article img {
+  position: relative;
+
+}
+
+section article ul {
+  display: flex;
+  flex-direction: row;
+  background: #f2f2f2;
+  
+}
+
+section article h3 {
+  background: white;
+  padding: 1em;
 }
 
 section a:last-of-type {
@@ -106,4 +136,8 @@ section a:last-of-type:hover {
   padding: 1em;
   border-radius: 5px;
   text-decoration: none;
+}
+
+article {
+  padding-top: 2em;
 }

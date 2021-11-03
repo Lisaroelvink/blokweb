@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Auteur:
-LISA ROELVINK
+Sanne 't Hooft (vervangen door jouw naam)
 
 #### Je startniveau:
-BLAUWE PISTE
+hier je startniveau (kies uit zwart, rood óf blauw)
 
 #### Je focus:
-RESPONSIVE
+hier je focus (kies uit responsive óf surface plane)
  
 </details>
 
@@ -39,16 +39,13 @@ RESPONSIVE
 link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-Home pagina mobile screen  
-<img src="images/home-mobile.png" width="375px" alt="omschrijving van de pagina">
+hier de naam van de pagina  
+<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
 
-#### Screenshot(s) van de eerste pagina (full screen): 
-Home pagina full screen  
-<img src="images/home.jpg" width="375px" alt="omschrijving van de pagina"> 
-
-#### Screenshot(s) van de eerste pagina (full screen): 
-Breakdown 
-<img src="images/home-breakdown.jpg" width="375px" alt="omschrijving van de pagina"> 
+#### Screenshot(s) van de tweede pagina (small screen):
+hier de naam van de pagina  
+<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+ 
 </details>
 
 
@@ -81,18 +78,18 @@ Breakdown
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-Ik verlies snel overzicht van de HTML nesteling. 
+hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | 
-| ---            |
-| html           |
-| blokjes stuctuur |
-| searchbar      | 
+| student 1      | student 2          | student 3    | student 4        |
+| ---            | ---                | ---          | ---              |
+| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
+| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+| ...            | ...                | ...          | ...              |
 
- <img src="images/screenshot_html1" width="375px" alt="breakdown van nog een dynamisch deel">
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
@@ -122,9 +119,9 @@ samen met je groepje opstellen
 
 | student 1      | student 2          | student 3    | student 4        |
 | ---            | ---                | ---          | ---              |
-| html           | en dit             | en ik dit    | en dan ik dat    |
-| blokjes        | dit als er tijd is | nog een punt | dit wil ik zeker |
-|             | ...                | ...          | ...              |
+| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
+| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+| ...            | ...                | ...          | ...              |
 
 
 ### Verslag van meeting
