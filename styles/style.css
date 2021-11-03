@@ -12,6 +12,7 @@ body {
   color: #303030;
   background: #f2f2f2;
   width: 100vw;
+  margin: 0;
 }
 
 main {
@@ -20,14 +21,14 @@ main {
   background: white;
   padding: 2em;
   margin: 1em;
+  max-width: 100%;
 }
 
-section {
-  border-radius: 25px;
-}
 
-section, article {
-  max-width: 500px;
+
+main > section, main > article {
+  min-width: 400px;
+  width: 100%;
 }
 
 main img {
@@ -42,6 +43,10 @@ main img {
 
 header {
   width: 100%;
+}
+
+nav {
+  overflow: hidden;
 }
 
 nav ul {
@@ -102,7 +107,16 @@ section:first-of-type div {
 /*****************SECOND SECTION STYLING**************/
 /****************************************************/
 
+main > section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+main > section h2, main > section a {
+  width: fit-content;
+}
 
 section article img {
   position: relative;
@@ -123,10 +137,13 @@ section article {
   
 }
 
-section div {
+main section:not(:first-of-type) div {
+  width: 100%;
   display: flex;
   gap: 1em;
   overflow: scroll;
+  justify-content: flex-start;
+  align-self: flex-start;
 }
 
 section article ul {
