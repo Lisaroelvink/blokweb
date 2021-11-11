@@ -18,9 +18,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ### Auteur:
 Lisa Roelvink
 
-#### Je startniveau: Blauw
+#### Mijn startniveau: Blauw
 
-#### Je focus: responsive
+#### Mijn focus: responsive
 </details>
 
 
@@ -33,14 +33,15 @@ Lisa Roelvink
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+[Allerhande](https://www.ah.nl/allerhande)
 
-#### Screenshot(s) van de eerste pagina (small screen): 
-hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+#### Screenshot(s) van de eerste pagina: 
+Allerhande home screen
+<img src="screenshots.voorgang/home-breakdown.jpg" width="375px" alt="Allerhande pagina">
 
-#### Screenshot(s) van de tweede pagina (small screen):
-hier de naam van de pagina  
+#### Screenshot(s) van de tweede pagina:
+Zalmpastaaa  
+[Detailpagina](https://www.ah.nl/allerhande/recept/R-R555304/pasta-met-zalm-roomkaas-en-courgette) 
 <img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
@@ -55,13 +56,10 @@ hier de naam van de pagina
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+<img src="screenshots.voorgang/home-breakdown.jpg" width="375px" alt="Allerhande pagina">
 
 ### dynamisch deel (bijv menu): 
 <img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
