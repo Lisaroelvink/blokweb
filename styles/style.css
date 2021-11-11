@@ -121,27 +121,18 @@ nav ul li {
     border-top: 1px solid grey;
 }
 
+nav ul li:first-child a {
+    color: #00ADE6;
+}
+
 nav ul a {
     color: black;
     text-decoration: none;
 }
 
-nav ul li:first-child a {
-    color: #00ADE6;
-}
-
 nav ul li a:hover {
     color: grey;
 }
-
-
-/* nav ul { 
-  display: flex;
-  justify-content: space-around;
-  list-style: none;
-  gap: 12px;
-  padding:0;
-}*/
 
 
 /* TWEEDE NAV STYLING */
@@ -150,7 +141,7 @@ nav:nth-of-type(2) ul {
     padding: 0;
 }
 
-nav:nth-of-type(2) ul li {
+nav:nth-of-type(2) ul {
     background: black;
     color: var(--color-white);
 }
@@ -160,13 +151,25 @@ nav:nth-of-type(2) ul li {
     color: var(--color-white);
 }
 
-nav:nth-of-type(2) ul a {
+nav:nth-of-type(2) ul li a {
     color: grey;
     text-decoration: none;
 }
 
 nav:nth-of-type(2) ul a:hover {
     color: var(--color-white);
+}
+
+nav:nth-of-type(2) div {
+    display: none;
+}
+
+nav:nth-of-type(2) ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    width: 100%;
 }
 
 
@@ -198,6 +201,22 @@ form button {
     border: none;
     background: #f0f4f7;
     padding: 1em;
+}
+
+section form {
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1em;
+}
+
+section form input {
+    background: var(--color-white);
+}
+
+section form button {
+    background: #ea3d3d;
 }
 
 
@@ -340,11 +359,6 @@ section:nth-of-type(3) {
     padding-top: 2em;
 }
 
-section:nth-of-type(3) div p,
-section:nth-of-type(3) div ul {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
 section:nth-of-type(3) div {
     display: flex;
     flex-direction: column;
@@ -410,6 +424,12 @@ footer ul a:hover {
     main section article {
         min-width: 250px;
         max-width: 22vw;
+    }
+    nav:nth-of-type(2) div {
+        display: flex;
+    }
+    footer ul:last-child {
+        flex-direction: row;
     }
 }
 
