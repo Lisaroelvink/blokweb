@@ -247,5 +247,6 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 12. svg twitter: https://iconape.com/?s=twitter
 13. svg pinterest: https://iconape.com/social-media-33-logo-icon-svg-png.html
 14. svg menu: https://iconape.com/menu-6-logo-icon-svg-png.html
+15. Voor het fixen van mijn JS: https://developer.mozilla.org/en-US/docs/Web/API/Element/closest
 
 </details>
