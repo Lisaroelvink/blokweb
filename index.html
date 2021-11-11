@@ -2,225 +2,274 @@
 <html lang="nl">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="author" content="jouw naam">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="author" content="jouw naam">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Allerhande</title>
+    <title>Allerhande</title>
 
-	<link href="styles/style.css" rel="stylesheet">
-	<link rel="icon" type="image/svg+xml" href="images/Albert_Heijn_Logo.svg">
+    <link href="styles/style.css" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="images/Albert_Heijn_Logo.svg">
 </head>
 
 <body>
 
-	<header>
-		<nav>
-			<!--HAMBURGER MENU-->
-			<ul>
-				<li>Producten</li>
-				<li>Bonus</li>
-				<li>Recepten</li>
-				<li>Meer</li>
-				<li><img width="50px" height="50px" src="images/Albert_Heijn_Logo.svg"
-						alt="Albert_Heijn_Logo naar Home"></li>
-				<li>Inloggen</li>
-				<li>Favorieten</li>
-				<li>Winkelmandje</li>
-			</ul>
-		</nav>
+    <header>
+        <nav>
+            <!--HAMBURGER MENU-->
+            <!--# zodat de links nergens naar navigeren-->
+            <div>
+                <div>
+                    <button><img width="40px" height="40px" src="images/menu.svg" alt="Menu"></button>
+                    <a href="/"><img width="40px" height="40px" src="images/Albert_Heijn_Logo.svg" alt="Albert_Heijn_Logo naar Home"></a>
+                </div>
+                <div>
+                    <a href="/"><img width="20px" height="20px" src="images/icon-user.svg" alt="Inloggen"></a>
+                    <a href="/"><img width="20px" height="20px" src="images/icon-heart.svg" alt="Favorieten"></a>
+                    <a href="/"><img width="20px" height="20px" src="images/icon-shoppingcart.svg" alt="Winkelmandje"></a>
+                </div>
+            </div>
+            <ul>
+                <li><a href="#">Inloggen</a></li>
+                <li><a href="#">Producten</a></li>
+                <li><a href="#">Bonus</a></li>
+                <li><a href="#">Recepten</a></li>
+                <li><a href="#">Meer</a></li>
+                <li><a href="#">Favorieten</a></li>
+                <li><a href="#">Winkelmandje</a></li>
+            </ul>
+        </nav>
 
-		<!--SEARCH BAR-->
+        <!--SEARCH BAR 1-->
 
-		<form action="">
-			<input type="text" placeholder="Zoek een recept">
-			<button type="submit"></button>
-		</form>
+        <form action="">
+            <input type="text" placeholder="Waar ben je naar op zoek?">
+            <button type="submit"><img width="20px" height="20px"src="images/icon-search.svg" alt="zoek icon"></button>
+        </form>
 
+        <!-- 2E NAV -->
+        <nav>
+            <ul>
+                <li><img width="150px" src="images/allerhande_logo.svg" alt="Allerhande logo"></li>
+                <li><a href="#">Overzicht</a></li>
+                <li><a href="#">Recepten</a></li>
+                <li><a href="#">Thema's</a></li>
+                <li><a href="#">Kids</a></li>
+                <li><a href="#">Video's</a></li>
+                <li><a href="#">Mijn favorieten</a></li>
+                <li><a href="#">Kookschrift</a></li>
 
+            </ul>
+        </nav>
 
-		<nav>
-			<ul>
-				<li><img width="150px" src="images/allerhande.logo.png" alt="Allerhande logo"></li>
-				<li>Recepten</li>
-				<li>Thema's</li>
-				<li>Kids</li>
-				<li>Video's</li>
-				<li>Mijn favorieten</li>
-				<li>Kookschrift</li>
-				<li>Overzicht</li>
-			</ul>
-		</nav>
+    </header>
 
-	</header>
+    <main>
 
-	<main>
+        <!--SECTION 1 VIND MAKKELIJK EEN RECEPT-->
 
-		<!--SECTION 1 VIND MAKKELIJK EEN RECEPT-->
+        <section>
+            <img src="images/vind_makkelijk_het_beste_recept.jpg" alt="Header afbeelding">
+            <div>
+                <h1>Vind makkelijk het beste recept</h1>
+                <form class="zoek_recept">
+                    <input type="text" placeholder="Zoek een recept">
+                    <button type="submit"><img width="20px" height="20px"src="images/icon-search.svg" alt="zoek icon"> </button>
+                </form>
+                <a class="laatstelink" href="">Bekijk alle recepten -></a>
+            </div>
+        </section>
 
-		<section>
-			<img src="images/vind_makkelijk_het_beste_recept.jpg" alt="Header afbeelding">
-			<div>
-				<h1>Vind makkelijk het beste recept</h1>
-				<form class="zoek_recept">
-					<input type="text" placeholder="Zoek een recept">
-					<button type="submit"> </button>
-				</form>
-				<a href="">Bekijk alle recepten -></a>
-			</div>
-		</section>
+        <!--SECTION 2 MHHH COMFORT FOOD-->
 
-		<!--SECTION 2 MHHH COMFORT FOOD-->
+        <section>
+            <h2>Mmm, comfort food!</h2>
+            <div>
+                <article>
+                    <a href="">
+                        <img src="images/pompoenquiche_met_bloemkool.jpg" alt="Pompoenquiche met bloemkool feta & bladsla">
 
-		<section>
-			<h2>Mmm, comfort food!</h2>
-			<div>
-			<article>
-				
-				<img src="images/pompoenquiche_met_bloemkool.jpg" alt="Pompoenquiche met bloemkool feta & bladsla">
+                        <ul>
+                            <li>10 min</li>
+                            <li>750 kcal</li>
+                            <li>Vegetarisch</li>
+                        </ul>
 
-				<ul>
-					<li>10 min</li>
-					<li>750 kcal</li>
-					<li>Vegetarisch</li>
-				</ul>
+                        <h3>Pompoenquiche met bloemkool, feta & bladsla</h3>
+                    </a>
+                </article>
 
-				<h3>Pompoenquiche met bloemkool, feta & bladsla</h3>
+                <article>
+                    <a href="">
+                        <img src="images/vegetarisch-stoofpotje-met-paddenstoelen.jpg" alt="Vegetarisch stoofpotje met paddenstoelen en aardappelpuree">
+                        <ul>
+                            <li>50 min</li>
+                            <li>465 kcal</li>
+                            <li>Vegetarisch</li>
+                        </ul>
 
-			</article>
+                        <h3>Vegetarisch stoofpotje met paddenstoelen en aardappelpuree</h3>
+                    </a>
+                </article>
 
-			<article>
-				<img src="images/vegetarisch-stoofpotje-met-paddenstoelen.jpg"
-					alt="Vegetarisch stoofpotje met paddenstoelen en aardappelpuree">
-				<ul>
-					<li>50 min</li>
-					<li>465 kcal</li>
-					<li>Vegetarisch</li>
-				</ul>
+                <article>
+                    <a href="">
+                        <img src="images/snelle-mexicaanse-bonenschotel.jpg" alt="Snelle Mexicaanse bonenschotel">
+                        <ul>
+                            <li>15 min</li>
+                            <li>560 kcal</li>
+                            <li>Glutenvrij</li>
+                            <li>4☆</li>
+                        </ul>
 
-				<h3>Vegetarisch stoofpotje met paddenstoelen en aardappelpuree</h3>
-			</article>
+                        <h3>Snelle Mexicaanse bonenschotel</h3>
+                    </a>
+                </article>
 
-			<article>
-				<img src="images/snelle-mexicaanse-bonenschotel.jpg" alt="Snelle Mexicaanse bonenschotel">
-				<ul>
-					<li>15 min</li>
-					<li>560 kcal</li>
-					<li>Glutenvrij</li>
-					<li>4</li>
-				</ul>
+                <article>
+                    <a href="">
+                        <img src="images/jackfruitgoulash.jpg" alt="Jackfruitgoulash">
+                        <ul>
+                            <li>10 min</li>
+                            <li>750 kcal</li>
+                            <li>Vegetarisch</li>
+                        </ul>
 
-				<h3>Snelle Mexicaanse bonenschotel</h3>
-			</article>
+                        <h3>Jackfruitgoulash</h3>
+                    </a>
+                </article>
 
-			<article>
-				<img src="images/jackfruitgoulash.jpg" alt="Jackfruitgoulash">
-				<ul>
-					<li>10 min</li>
-					<li>750 kcal</li>
-					<li>Vegetarisch</li>
-				</ul>
+                <article>
+                    <a href="">
+                        <img src="images/pasta_in_romige_tomatensaus.jpg" alt="Pasta in romige tomatensaus met spinazie">
+                        <ul>
+                            <li>25 min</li>
+                            <li>525 kcal</li>
+                            <li>Vegetarisch</li>
+                        </ul>
 
-				<h3>Jackfruitgoulash</h3>
-			</article>
-		</div>
-			<a href="">meer recepten</a>
-		</section>
+                        <h3>Pasta in romige tomatensaus met spinazie</h3>
+                    </a>
+                </article>
+                <article>
+                    <a href="">
+                        <img src="images/stoofmetvarken.jpg" alt="Stoof met varkensvlees, paprika, rucola en krieltjes">
+                        <ul>
+                            <li>20 min</li>
+                            <li>405 kcal</li>
+                            <li>3☆</li>
+                            <li>4pers</li>
+                        </ul>
 
-		<!--SECTION 3 GEZOND EN VOORDELIG-->
+                        <h3>Stoof met varkensvlees, paprika, rucola en krieltjes</h3>
+                    </a>
+                </article>
+                <article>
+                    <a href="">
+                        <img src="images/romigekipbroccoli.jpg" alt="Romige kip met broccoli, prei en rijst">
+                        <ul>
+                            <li>20 min</li>
+                            <li>570 kcal</li>
+                            <li>Glutenvrij</li>
+                            <li>3☆</li>
+                        </ul>
 
-		<section>
-			<h2>Gezond en voordeling koken met Prijsfavorieten</h2>
-			<div>
-			<article>
-				<img src="images/pasta_in_romige_tomatensaus.jpg" alt="Pasta in romige tomatensaus met spinazie">
-				<ul>
+                        <h3>Romige kip met broccoli, prei en rijst</h3>
+                    </a>
+                </article>
+                <article>
+                    <a href="">
+                        <img src="images/venkel.jpg" alt="Venkelstamppot met zachtgekookt ei">
+                        <ul>
+                            <li>35 min</li>
+                            <li>400 kcal</li>
+                            <li>Vegetarisch</li>
+                        </ul>
 
-					<li>25 min</li>
-					<li>525 kcal</li>
-					<li>Vegetarisch</li>
-				</ul>
+                        <h3>Venkelstamppot met zachtgekookt ei</h3>
+                    </a>
+                </article>
+            </div>
+            <a class="laatstelink" href="">meer recepten</a>
+        </section>
 
-				<h3>Pasta in romige tomatensaus met spinazie</h3>
+        <!-- SECTION 3 NU IN HET MAGAZINE -->
+        <section>
 
-			</article>
-			</div>
+            <img src="images/nu_in_het_magazine.jpg" alt="Oven groente">
+            <div>
+                <h2>Nu in het magazine</h2>
 
-			<a href="">meer recepten</a>
+                <p>Het is zomer en dat is al genoeg reden voor een feestje! In dit zonnige vakantienummer vind je meer dan genoeg inspiratie om de lekkerste zomergerechten thuis te maken. Bekijk het magazine online of doe inspiratie op bij:</p>
 
-		</section>
+                <ul>
+                    <li>Alle nieuwe recepten</li>
+                    <li>Wat eten we vandaag?</li>
+                    <li>Traybakes</li>
+                    <li>Wraps</li>
+                    <li>Lunch to stay or to go?</li>
+                    <li>Zalm</li>
+                    <li>Broccoli</li>
+                </ul>
+            </div>
 
-		<section>
+            <img src="images/koken_met_hugo.jpeg" alt="Wie kookt er met Hugo?">
+            <div>
+                <h2>Wie kookt er met Hugo?</h2>
+                <p>In de videoserie ‘Hugo’s Cover Up’ maakt tv-chef Hugo Kennis samen met een bekend persoon de voorkant van Allerhande. Eerder al eens met Victor van First Dates, deze keer met Jasper Gottlieb! Benieuwd hoe dat afloopt? Check hier de video.</p>
+            </div>
+        </section>
 
-			<img src="images/nu_in_het_magazine.jpg" alt="Oven groente">
-			<h2>Nu in het magazine</h2>
+        <!-- LOSSE ARTICLES DIE NOG APART GESTYLED MOETEN WORDEN -->
+        <div>
+            <article>
+                <img src="images/glutenvrije_appelkruimel.jpg" alt="Recept">
+                <p>Recept - > Verse apple crumble</p>
+            </article>
 
-			<p>Het is zomer en dat is al genoeg reden voor een feestje! In dit zonnige vakantienummer vind je meer dan
-				genoeg inspiratie om de lekkerste zomergerechten thuis te maken. Bekijk het magazine online of doe
-				inspiratie op bij:</p>
+            <article>
+                <img src="images/appeltaart_van_rutger_bakt.jpg" alt="">
+                <p>Recept - > Oma's appeltaart</p>
+            </article>
 
-			<ul>
-				<li>Alle nieuwe recepten</li>
-				<li>Wat eten we vandaag?</li>
-				<li>Traybakes</li>
-				<li>Wraps</li>
-				<li>Lunch to stay or to go?</li>
-				<li>Zalm</li>
-				<li>Broccoli</li>
-			</ul>
-		</section>
+            <article>
+                <img src="images/applecrumble2.jpg" alt="">
+                <p>Recept - > Appel crumble met ijs</p>
+            </article>
+        </div>
+    </main>
 
-		<section>
-			<img src="images/koken_met_hugo.jpeg" alt="Wie kookt er met Hugo?">
-			<h2>Wie kookt er met Hugo?</h2>
-			<p>In de videoserie ‘Hugo’s Cover Up’ maakt tv-chef Hugo Kennis samen met een bekend persoon de voorkant van
-				Allerhande. Eerder al eens met Victor van First Dates, deze keer met Jasper Gottlieb! Benieuwd hoe dat
-				afloopt? Check hier de video.</p>
-		</section>
+    <!-- FOOTER  -->
 
-		<section>
-			<h2>Pompoen? Doen!</h2>
+    <footer>
+        <a href="/"><img width="40px" height="40px" src="images/Albert_Heijn_Logo.svg" alt="Albert_Heijn_Logo naar Home"></a>
+        <ul>
+            <li>
+                <a href="/"><img width="40px" height="40px" src="images/facebook.svg" alt="Albert_Heijn_Logo naar Home"></a>
+            </li>
+            <li>
+                <a href="/"><img width="40px" height="40px" src="images/instagram.svg" alt="Albert_Heijn_Logo naar Home"></a>
+            </li>
+            <li>
+                <a href="/"><img width="40px" height="40px" src="images/twitter.svg" alt="Albert_Heijn_Logo naar Home"></a>
+            </li>
+            <li>
+                <a href="/"><img width="40px" height="40px" src="images/pinterest.svg" alt="Albert_Heijn_Logo naar Home"></a>
+            </li>
+        </ul>
+        <ul>
+            <li><a href="">Zakelijke algemene voorwaarden</a></li>
+            <li><a href="">Algemene voorwaarden</a></li>
+            <li><a href="">Bonusvoorwaarden</a></li>
+            <li><a href="">Privacybeleid</a></li>
+            <li><a href="">Cookiebeleid</a></li>
+            <li><a href="">Over AH</a></li>
+            <li><a href="">Kwetsbaarheid melden</a></li>
+        </ul>
 
-			<article>
-				<ul>
-					<li><img src="images/geroosterde_pompoenlinzensalade.jpg"
-							alt="Geroosterde pompoemlinzensalade met venkel & ricotta"></li>
-					<li>30 min</li>
-					<li>500 kcal</li>
-					<li>Vegetarisch</li>
-					<li>
-						<h3>Geroosterde pompoemlinzensalade met venkel & ricotta</h3>
-					</li>
-				</ul>
-			</article>
+    </footer>
 
-			<a href="">meer recepten</a>
-
-		</section>
-
-
-		<article>
-			<img src="images/glutenvrije_appelkruimel.jpg" alt="Recept">
-		</article>
-
-		<article>
-			<img src="images/appeltaart_van_rutger_bakt.jpg" alt="">
-		</article>
-
-		<article>
-			<img src="images/appelcrumble.jpg" alt="">
-		</article>
-	</main>
-
-
-
-	<footer>
-
-		<!--social media icons-->
-
-	</footer>
-
-	<script src="scripts/script.js"></script>
+    <script src="scripts/script.js"></script>
 </body>
 
 </html>
