@@ -237,14 +237,14 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 2. Mijn reddende flex en grid hulp: 
 3. Om NIET de eerste section div te selecteren 'not:first-of-type' https://stackoverflow.com/questions/12289853/notfirst-child-selector
 4. Voor het hamburger menu: https://dlo.mijnhva.nl/content/enforced/324287-FDMCI-2000FED121-DMCI-CMD-2122/FED%2021-22%20-%20Blok%201%20-%20Oefening%20grid%20en%20media%20queries.pdf
-5. svg allerhande
-6. svg search
-7. svg profile
-8. svg heart
-9. svg winkelmand
-10. svg facebook
-11. svg instagram
-12. svg twitter
-13. svg pinterest
+5. svg allerhande: https://worldvectorlogo.com/nl/logo/allerhande
+6. svg search: https://icons8.com/icons/set/search
+7. svg profile: <div>Icon made from <a href="http://www.onlinewebfonts.com/icon">Icon Fonts</a> is licensed by CC BY 3.0</div>
+8. svg heart: https://www.iconpacks.net/free-icon/heart-492.html
+9. svg winkelmand: https://uxwing.com/shopping-cart-icon/
+10. svg facebook: https://iconape.com/facebook-f-logo-icon-svg-png.html
+11. svg instagram: https://iconape.com/social-media-27-logo-icon-svg-png.html
+12. svg twitter: https://iconape.com/?s=twitter
+13. svg pinterest: https://iconape.com/social-media-33-logo-icon-svg-png.html
 
 </details>
