@@ -234,7 +234,7 @@ hier screenshot(s) van je eindresultaat
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
 1. Om de blokjes(articles) op een semantische manier clickable te maken: https://css-tricks.com/block-links-the-search-for-a-perfect-solution/
-2. Mijn reddende flex en grid hulp: 
+2. Mijn reddende flex en grid hulp: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 3. Om NIET de eerste section div te selecteren 'not:first-of-type' https://stackoverflow.com/questions/12289853/notfirst-child-selector
 4. Voor het hamburger menu: https://dlo.mijnhva.nl/content/enforced/324287-FDMCI-2000FED121-DMCI-CMD-2122/FED%2021-22%20-%20Blok%201%20-%20Oefening%20grid%20en%20media%20queries.pdf
 5. svg allerhande: https://worldvectorlogo.com/nl/logo/allerhande
@@ -246,5 +246,6 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 11. svg instagram: https://iconape.com/social-media-27-logo-icon-svg-png.html
 12. svg twitter: https://iconape.com/?s=twitter
 13. svg pinterest: https://iconape.com/social-media-33-logo-icon-svg-png.html
+14. svg menu: https://iconape.com/menu-6-logo-icon-svg-png.html
 
 </details>
